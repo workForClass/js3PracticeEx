@@ -38,5 +38,5 @@ const shirt = {
   
     // 4-----------------
     for (i=0; i < wardrobe.length; i++) {
-        console.log(wardrobe[i].colour);
+        console.log("Loop: " + wardrobe[i].getColor());
     }
